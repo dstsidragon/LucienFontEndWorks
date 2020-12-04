@@ -1,0 +1,230 @@
+
+//文字大小
+.fz-12{
+    font-size: 12px;
+}
+.fz-14{
+    font-size: 14px;
+}
+.fz-16{
+    font-size: 16px;
+}
+.fz-18{
+    font-size: 18px;
+}
+ 
+.fz-20{
+    font-size: 20px;
+}
+.fz-24{
+    font-size: 24px;
+}
+.fz-32{
+    font-size: 32px;
+}
+.fz-48{
+    font-size: 48px;
+}
+//文字顏色
+.c-darkGreen{
+    color: #2A8356;
+}
+.c-dark{
+    color: #121212;
+}
+.c-lightGray{
+    color: #0000009A;
+}
+.c-gray{
+    color: #707070;
+}
+.c-darkGray{
+    color: #0000009A;
+}
+//文字對齊
+.ta-left{
+    text-align-last: left;
+}
+.m0-a{
+    margin: 0 auto;
+}
+
+//外推擠
+.mg-0{
+    margin: 0;
+}
+.mt-1{
+    margin-top:8px !important;
+}
+.ml-1{
+    margin-left: 8px !important;
+}
+.ml-2{
+    margin-left: 16px !important;
+}
+.ml-3{
+    margin-left: 24px !important;
+}
+.ml-8{
+    margin-left: 48px !important;
+}
+.ml-32{
+    margin-left: 256px;
+}
+.mb-0{
+    margin-bottom:0px !important;
+}
+.mb-1{
+    margin-bottom:8px !important;
+}
+.mb-2{
+    margin-bottom:16px !important;
+}
+.mb-4{
+    margin-bottom: 32px !important;
+}
+.mb-5{
+    margin-bottom: 40px !important;
+}
+.mb-10{
+    margin-bottom: 80px;
+}
+.mb-15{
+    margin-bottom: 120px;
+}
+.mb-20{
+    margin-bottom: 160px;
+}
+.mb-30{
+    margin-bottom: 240px;
+}
+.mb-41{
+    margin-bottom: 328px;
+}
+.mr-2{
+    margin-right: 16px !important;
+}
+.mr-3{
+    margin-right: 24px !important;
+}
+.mr-4{
+    margin-right: 32px !important;
+}
+
+//內推擠
+.pd-1{
+    padding: 8px;
+}
+.pd-2{
+    padding: 16px;
+}
+.pd-4{
+    padding: 32px;
+}
+.pt-1{
+    padding-top: 8px !important;
+}
+.pt-2{
+    padding-top: 16px !important;
+}
+.pl-2{
+    padding-left: 16px !important;
+}
+.pl-3{
+    padding-left: 24px !important;
+}
+.pt-4{
+    padding-top: 32px !important;
+}
+.pl-4{
+    padding-left: 32px !important;
+}
+.pb-1{
+    padding-bottom: 8px !important;
+}
+.pb-2{
+    padding-bottom: 16px !important;
+}
+.pb-4{
+    padding-bottom: 32px !important;
+}
+.pr-2{
+    padding-right: 16px !important;
+}
+.pr-3{
+    padding-right: 24px !important;
+}
+.pr-4{
+    padding-right: 32px !important;
+}
+
+//邊線粗度
+.bd-1{
+    border-width: 1px  !important;
+}
+.bd-top-1{
+    border-top: 1px  !important;
+}
+.bd-left-1{
+    border-left: 1px  !important;
+}
+.bd-left-4{
+    border-left: 4px  !important;
+}
+.bd-bottom-1{
+    border-bottom: 1px  !important;
+}
+//邊框樣式
+.bd-solid{
+    border-style: solid  !important;
+}
+//邊線顏色
+.bd-color-transparent{
+    border-color:transparent;
+}
+.bd-color-primary{
+    border-color:$primary !important;
+}
+.bd-color-secondary{
+    border-color:$secondary !important;
+}
+.bd-color-success{
+    border-color:$success !important;
+}
+.bd-color-info{
+    border-color:$info !important;
+}
+//底線
+.td-none{
+    text-decoration: none;
+}
+//盒模型
+.bd-sizing{
+    box-sizing: border-box;
+}
+
+//Hover 
+.hover-success:hover{
+    border: 1px solid $success !important;
+    color:$success !important;  
+  }
+.hover-success-bgChange:hover{
+    border: 1px solid $white !important;
+    color:$white !important;  
+    background-color: $success !important;
+ }
+ .hover-secondary-bgChange:hover{
+    border: 1px solid $white !important;
+    color:$white !important;  
+    background-color: $secondary !important;
+ }
+ .hover-primary-bgChange:hover{
+    border: 1px solid $white !important;
+    color:$white !important;  
+    background-color: $primary !important;
+ }
+
+ .active-primary:active{
+    background-color:$primary !important;  
+    color:#ffffff !important;
+  }
