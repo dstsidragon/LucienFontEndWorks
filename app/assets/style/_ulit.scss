@@ -178,9 +178,7 @@
 .bd-solid{
     border-style: solid  !important;
 }
-.bd-radius-1{
-    border-radius:5%;
-}
+
 //邊線顏色
 .bd-color-transparent{
     border-color:transparent;
@@ -229,6 +227,10 @@
 
  .active-primary:active{
     background-color:$primary !important;  
+    color:#ffffff !important;
+  }
+  .active-warning:active{
+    background-color:$warning !important;  
     color:#ffffff !important;
   }
   .hover-warning-bgChange:hover{

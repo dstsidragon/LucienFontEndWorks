@@ -44,9 +44,14 @@ body {
     font-size: 32px;
     line-height: 1.5;
     font-weight: bold;
+    box-sizing: border-box ;
 }
-a.text-warning:hover, a.text-warning:focus {
+a.text-warning:hover {
      color: #ffff !important; 
+}
+a.text-warning:focus {
+    color: #FFFF !important;
+    background-color: $warning !important;
 }
 
 //RWD
