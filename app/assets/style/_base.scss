@@ -45,12 +45,10 @@ body {
     line-height: 1.5;
     font-weight: bold;
 }
-
-
-a.bg-primary:hover, a.bg-primary:focus, button.bg-primary:hover, button.bg-primary:focus {
-    background-color:$primary  !important;
-    color:white  !important;
+a.text-warning:hover, a.text-warning:focus {
+     color: #ffff !important; 
 }
+
 //RWD
 
 @media (max-width:768px){
